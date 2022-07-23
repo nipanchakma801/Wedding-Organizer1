@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Wedding planner</title>
+<meta name="viewport" content="width=device-width,initialscale=1.0">
+<link rel="stylesheet" href="homestyle.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+
+.content,.w3-auto{
+margin-left:auto;
+margin-right:auto
+}
+.ontent{
+max-width:980px
+}
+.auto{
+max-width:1140px
+}
+.section,.code{
+margin-top:16px!important;
+margin-bottom:16px;
+}
+.center{
+text-align:center;
+}
+
+div.footer
+{
+padding:0.5em;
+color:white;
+background-color:gray;
+text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+  <nav>
+     <input type="checkbox" id="check">
+	 <label for="check" class="checkbtn">
+	   <i class="fas fa-bars"></i>
+	 </label>
+     <label class="logo">WeddingOrganizer</label> 
+<ul>
+   <li><a class="active" href="#">Home</a></li>
+   <li><a href="weddingPlaner.html">Wedding Planner</a></li>
+   <li><a href="services.html">Services</a></li>
+    <li><a href="#">Guest List</a></li>
+	<li><a href="pricing.html">Pricing</a></li>
+    <li><a href="vendorlogin.php">Vendor Manager</a></li>
+    <li><a href="#">Checklist</a></li>
+    <li><a href="#">Budget</a></li>
+	 <li><a href="#">Task Manager</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+   <li><a href="logininterface.html">Log out</a></li>   
+</ul>
+</nav>
+<section></section>
+
+
+
+
+<div class="content section" style="max-width:1000px">
+  <img class="mySlides" src="wed1.jpg" style="width:100%">
+  <img class="mySlides" src="wed2.jpg" style="width:100%">
+  <img class="mySlides" src="wed3.jpg" style="width:100%">
+  <img class="mySlides" src="wed4.jpg" style="width:100%">
+  <img class="mySlides" src="wed5.jpg" style="width:100%">
+  <img class="mySlides" src="wed6.jpg" style="width:100%">
+  <img class="mySlides" src="wed7.jpg" style="width:100%">
+  <img class="mySlides" src="wed8.jpg" style="width:100%">
+  <img class="mySlides" src="wed9.jpg" style="width:100%">
+  <img class="mySlides" src="wed10.jpg" style="width:100%">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+</body>
+
+		
+<div class="footer"> © Copyright 2022 | Wedding Organizer</div>
+
+</html>

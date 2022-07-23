@@ -1,0 +1,57 @@
+
+
+
+  * {
+	   margin: 0;
+       padding: 0;
+		box-sizing: border-box;
+	}	
+	
+	body 
+	{
+	 background-image: url("Wedding.gif");
+	 background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center;
+	box-sizing: border-box;
+	font-family:sans-serif;
+    }
+	
+	
+.container{
+		padding:60px;
+		background-color:transparent;
+		width:500px;
+		border:3px solid transparent;
+		color:#fff;
+	}
+	
+.container .registration
+{
+	text-align:center;
+	padding:40px;
+	color:red;
+}
+
+
+.container .label{
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+	margin-right:50px;
+	font-size:20px;
+	}
+select{
+	width:105px;
+	}
+p	{
+	position:absolute;                 
+    bottom:0;                         
+    left:0;
+	}
+	
+.container .button
+{
+	text-align:center;
+}
